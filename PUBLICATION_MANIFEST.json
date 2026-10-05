@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "title": "BBC news topic modeling",
+  "runtime_verified_for_publication": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "bbc code 2.ipynb",
+      "sha256": "efb2d2b5d2f045367edbeee6eb1ca7b92c0825dc1c646bede8851dc1d5d8155e",
+      "bytes": 5843
+    },
+    {
+      "path": "README.md",
+      "sha256": "9789c68fad2b598b5e700c43f3a71332f7fb2eacb1bd24d6696da726cb348da0",
+      "bytes": 822
+    },
+    {
+      "path": "additional_sources/bbc news code/bbc news code.ipynb",
+      "sha256": "845ff57bfd172f232ff98c09721f352c92a2cad50c69fac85801f55227636c1a",
+      "bytes": 5206
+    }
+  ]
+}
