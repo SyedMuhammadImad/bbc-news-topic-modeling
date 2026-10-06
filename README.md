@@ -1,10 +1,13 @@
 # BBC news topic modeling
 
-Learning notebooks. Saved outputs removed; evaluation and successful rerun are not verified by publication.
+LDA parameter selection retains and displays the best model. Correct token length filtering. NMF comparison with separate metric definitions.
 
+The earlier notebook was repaired into a reusable module plus the same setup → experiment → results notebook flow. Original source files remain on the laptop. See `VERIFICATION.json` for completed checks and `metrics.json` for fresh results when available.
 
-## Publication copy
+```sh
+python -m venv .venv
+python -m pip install -r requirements.txt
+python topics.py --data bbc_news.csv --output metrics.json
+```
 
-Published 5 October 2026 at the owner's request. This is a sanitized source snapshot. Original local Git history and original files remain unchanged. Pictures, videos, binary archives, private/runtime data, dependency folders and credentials are excluded. Notebook outputs, attachments and incidental metadata are removed. Documents are text-only extracts. Media references and redacted configuration may need replacements before running. No claim of successful rerun, production readiness, sole authorship or independent validation is implied.
-
-Learning notebooks. Saved outputs removed; evaluation and successful rerun are not verified by publication.
+Supply your dataset files at the indicated paths. Raw corpora, model binaries, credentials, pictures and videos are excluded. Pretrained model downloads happen locally. Evaluation sizes and dataset limitations are explicit in the results; small runs are functional evidence, not a broad benchmark.

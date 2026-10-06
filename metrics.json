@@ -1,0 +1,165 @@
+{
+  "dataset": "BBC supplied news CSV",
+  "documents": 38731,
+  "seed": 42,
+  "selection_metric": "training-corpus c_v coherence",
+  "grid": [
+    {
+      "topics": 3,
+      "alpha": "symmetric",
+      "eta": "symmetric",
+      "coherence": 0.4653805255624064
+    },
+    {
+      "topics": 3,
+      "alpha": "symmetric",
+      "eta": "auto",
+      "coherence": 0.4653805255624064
+    },
+    {
+      "topics": 3,
+      "alpha": "asymmetric",
+      "eta": "symmetric",
+      "coherence": 0.42947838149716483
+    },
+    {
+      "topics": 3,
+      "alpha": "asymmetric",
+      "eta": "auto",
+      "coherence": 0.42947838149716483
+    },
+    {
+      "topics": 5,
+      "alpha": "symmetric",
+      "eta": "symmetric",
+      "coherence": 0.257580688331542
+    },
+    {
+      "topics": 5,
+      "alpha": "symmetric",
+      "eta": "auto",
+      "coherence": 0.257580688331542
+    },
+    {
+      "topics": 5,
+      "alpha": "asymmetric",
+      "eta": "symmetric",
+      "coherence": 0.3050199217747328
+    },
+    {
+      "topics": 5,
+      "alpha": "asymmetric",
+      "eta": "auto",
+      "coherence": 0.3050199217747328
+    },
+    {
+      "topics": 7,
+      "alpha": "symmetric",
+      "eta": "symmetric",
+      "coherence": 0.2549378247891239
+    },
+    {
+      "topics": 7,
+      "alpha": "symmetric",
+      "eta": "auto",
+      "coherence": 0.2549378247891239
+    },
+    {
+      "topics": 7,
+      "alpha": "asymmetric",
+      "eta": "symmetric",
+      "coherence": 0.26408033776253853
+    },
+    {
+      "topics": 7,
+      "alpha": "asymmetric",
+      "eta": "auto",
+      "coherence": 0.26408033776253853
+    }
+  ],
+  "best_parameters": {
+    "topics": 3,
+    "alpha": "symmetric",
+    "eta": "symmetric",
+    "coherence": 0.4653805255624064
+  },
+  "displayed_model_is_best": true,
+  "lda_topics": [
+    [
+      "england",
+      "win",
+      "world",
+      "manchest",
+      "say",
+      "final",
+      "leagu",
+      "citi",
+      "women",
+      "wale"
+    ],
+    [
+      "say",
+      "year",
+      "peopl",
+      "polic",
+      "die",
+      "old",
+      "attack",
+      "kill",
+      "israel",
+      "death"
+    ],
+    [
+      "say",
+      "bbc",
+      "new",
+      "govern",
+      "presid",
+      "elect",
+      "trump",
+      "minist",
+      "plan",
+      "parti"
+    ]
+  ],
+  "nmf_topics": [
+    [
+      "say",
+      "peopl",
+      "bbc",
+      "polic",
+      "ukrain",
+      "new",
+      "govern",
+      "minist",
+      "attack",
+      "presid"
+    ],
+    [
+      "world",
+      "cup",
+      "final",
+      "england",
+      "win",
+      "leagu",
+      "women",
+      "manchest",
+      "beat",
+      "watch"
+    ],
+    [
+      "year",
+      "old",
+      "man",
+      "murder",
+      "ago",
+      "polic",
+      "die",
+      "girl",
+      "boy",
+      "arrest"
+    ]
+  ],
+  "nmf_reconstruction_error": 195.33810738446434,
+  "limitation": "Topic coherence and reconstruction error are different metrics; neither proves human-readable or factual topics."
+}

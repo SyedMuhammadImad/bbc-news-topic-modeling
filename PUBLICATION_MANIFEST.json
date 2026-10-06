@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-07",
   "title": "BBC news topic modeling",
-  "runtime_verified_for_publication": false,
+  "completion_gate_passed": true,
   "files": [
     {
       "path": ".gitignore",
@@ -10,18 +10,38 @@
     },
     {
       "path": "bbc code 2.ipynb",
-      "sha256": "efb2d2b5d2f045367edbeee6eb1ca7b92c0825dc1c646bede8851dc1d5d8155e",
-      "bytes": 5843
+      "sha256": "3ab79156deb1a84df967cea409c69a332442e2da4569e64970e16e81817aef02",
+      "bytes": 2452
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "1fe5c471e9caf607753dce50511c7f6524a698a7a2f0f74e20dc0cd3bfcebf4d",
+      "bytes": 3119
     },
     {
       "path": "README.md",
-      "sha256": "9789c68fad2b598b5e700c43f3a71332f7fb2eacb1bd24d6696da726cb348da0",
-      "bytes": 822
+      "sha256": "071d7345711808db93b7bd25bd5ecb35d02daefaccddd0a198682df99c0e7c5b",
+      "bytes": 876
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c7e04660b721a2e1bef2c5ac2c6198991df806504cddf8be4ecd4a2dca029daf",
+      "bytes": 79
+    },
+    {
+      "path": "topics.py",
+      "sha256": "406e6620d35edbabb7aac7b050e51893d89becf1e34c6bc90f560da31a9ac0db",
+      "bytes": 3288
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "f89e6b485467384c329440b21f7e08cba6d2b58adb37787af4033888cf9f0e8d",
+      "bytes": 639
     },
     {
       "path": "additional_sources/bbc news code/bbc news code.ipynb",
-      "sha256": "845ff57bfd172f232ff98c09721f352c92a2cad50c69fac85801f55227636c1a",
-      "bytes": 5206
+      "sha256": "06012c4857763e52988f9c3b86ce362fe6696e0ac233d192c30c834785b87f3d",
+      "bytes": 2458
     }
   ]
 }
