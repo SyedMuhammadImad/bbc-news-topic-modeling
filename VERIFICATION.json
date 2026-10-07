@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "project": "bbc-news-topic-modeling",
-  "completion_scope": "academic project or finished document; not a production certification",
+  "completion_scope": "experimental project or finished document; not a production certification",
   "checks": [
     {
       "name": "Real supplied dataset, full CLI execution",
@@ -13,7 +13,7 @@
     }
   ],
   "limitations": [
-    "Academic dataset results; generalization to new sources is not established.",
+    "experimental dataset results; generalization to new sources is not established.",
     "Topic coherence and reconstruction error are different metrics; neither proves human-readable or factual topics."
   ]
 }
